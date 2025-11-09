@@ -21,6 +21,6 @@ qr.make(fit=True)
 
 #color of fill part and back part and save command 
 img=qr.make_image(fill_color=a,back_color=b)
-img.save(f"python projects/{file}")
+img.save(f"python-projects/{file}")
 print(f"qrcode generated seccessfully of file name {file}")
 
